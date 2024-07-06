@@ -1004,7 +1004,7 @@ proxies:
     password: 0l4z8zW0
 
 proxy-groups:
-   -
+  -
     name: 🚀节点选择
     type: select
     proxies:
@@ -1088,7 +1088,7 @@ proxy-groups:
       - 沪韩02-IPLC-倍率6.0
       - 沪韩03-IPLC-倍率6.0
       - 沪韩04-IPLC-倍率6.0
-      - 🧱直接连接
+
   -
     name: 代理
     type: select
@@ -1173,7 +1173,7 @@ proxy-groups:
       - 沪韩02-IPLC-倍率6.0
       - 沪韩03-IPLC-倍率6.0
       - 沪韩04-IPLC-倍率6.0
-      - 🧱直接连接
+
   -
     name: 代理2
     type: select
