@@ -1002,7 +1002,6 @@ proxies:
     port: "6505"
     username: 44330633
     password: 0l4z8zW0
-
 proxy-groups:
   -
     name: 🚀节点选择
