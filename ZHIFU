@@ -1183,7 +1183,6 @@ proxy-groups:
     proxies:
       - 代理
       - 代理2
-      - proxy3
   -
     name: 🧱直接连接
     type: select
