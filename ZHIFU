@@ -1088,7 +1088,6 @@ proxy-groups:
       - 沪韩02-IPLC-倍率6.0
       - 沪韩03-IPLC-倍率6.0
       - 沪韩04-IPLC-倍率6.0
-
   -
     name: 代理
     type: select
