@@ -1004,7 +1004,7 @@ proxies:
     password: 0l4z8zW0
 
 proxy-groups:
-  -
+   -
     name: 🚀节点选择
     type: select
     proxies:
