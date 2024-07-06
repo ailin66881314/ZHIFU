@@ -1004,7 +1004,8 @@ proxies:
     password: 0l4z8zW0
 
 proxy-groups:
-  - name: 🚀节点选择
+  -
+    name: 🚀节点选择
     type: select
     proxies:
       - 香港01-IEPL-倍率1.0
@@ -1087,7 +1088,8 @@ proxy-groups:
       - 沪韩02-IPLC-倍率6.0
       - 沪韩03-IPLC-倍率6.0
       - 沪韩04-IPLC-倍率6.0
-  - name: 代理
+  -
+    name: 代理
     type: select
     proxies:
       - 香港01-IEPL-倍率1.0
@@ -1170,23 +1172,24 @@ proxy-groups:
       - 沪韩02-IPLC-倍率6.0
       - 沪韩03-IPLC-倍率6.0
       - 沪韩04-IPLC-倍率6.0
-  - name: 代理2
+  -
+    name: 代理2
     type: select
     proxies:
       - MM缅甸01
       - MM缅甸02
-  - name: "专线"
-   type: relay
-   proxies:
+  -
+    name: "专线"
+    type: relay
+    proxies:
       - 代理
       - 代理2
       - proxy3
-  - name: 🧱直接连接
+  -
+    name: 🧱直接连接
     type: select
     proxies:
       - DIRECT
-
-
 rules:
  - DOMAIN-SUFFIX,smtp,🧱直接连接
  - DOMAIN-KEYWORD,aria2,🧱直接连接
