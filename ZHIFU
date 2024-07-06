@@ -4269,4 +4269,4 @@ rules:
  - DOMAIN-SUFFIX,aicoin.com,专线
  - DOMAIN-SUFFIX,chatgpt.com,专线
  - GEOIP,CN,🧱直接连接
- - MATCH,代理2
+ - MATCH,专线
