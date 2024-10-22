@@ -29,7 +29,7 @@ proxy-providers:
 proxy-groups:
   - { name: 代理, use: 续费GQHZGY, type: select, [url: http://www.gstatic.com/generate_204 ,interval: 600]}
   - { name: 全球, use: 售后GQHZGY, type: select, [url: http://www.gstatic.com/generate_204 ,interval: 600]}
-  - { name: Googleplay, type: relay, proxies: [代理,全球]}
+  - { name: Googleplay, type: relay, proxies: [续费GQHZGY,售后GQHZGY]}
 
 rules: 
   - DOMAIN,myaccount.google.com,Googleplay 
