@@ -1,0 +1,16 @@
+port: 10100
+socks-port: 10101
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+
+proxies:
+  - {name: 香港专线, type: vmess, server: tj0gcyvx.gt-run.com, port: 10101, uuid: 45F8B2CE-BF56-67A8-FA54-AFCEC92FC831, alterId: 0, cipher: auto, network: tcp}
+  - {name: 台湾专线, type: vmess, server: tj0gcyvx.gt-run.com, port: 10201, uuid: 45F8B2CE-BF56-67A8-FA54-AFCEC92FC831, alterId: 0, cipher: auto, network: tcp}
+
+proxy-groups:
+  - { name: "代理", type: select, proxies: [香港专线,台湾专线]}
+
+rules:
+  - MATCH,代理
