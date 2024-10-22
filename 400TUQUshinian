@@ -106,13 +106,13 @@ proxies:
     type: socks5
     server: 64.113.11.213
     port: 1000
-    username: storm-shinian_area-EG
+    username: storm-shinian_area-TR
     password: 16888888
   - name: 土耳其2
     type: socks5
     server: 64.113.11.213
     port: 1000
-    username: storm-shinian_area-EG
+    username: storm-shinian_area-TR
     password: 16888888
 
 proxy-groups:
