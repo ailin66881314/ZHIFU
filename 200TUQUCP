@@ -8,28 +8,28 @@ proxies:
   - {name: 土耳其,type: ssr, server: 1.1.1.1, port: 1000, cipher: chacha20-ietf, password: hzBuV5oTasdfEx08, protocol: auth_aes128_md5, protocol-param: '122228:0AyFYJlCl0LAlQ8t', obfs: http_simple, obfs-param: 1b24f110228.microsoft.com, udp: true}
   
 proxy-providers:
-          续费GQHZGY:
+          GQHZGY:
             type: http
             url: https://raw.githubusercontent.com/ailin66881314/ZHIFU/refs/heads/main/DAILI
             interval: 86400
-            path: ./proxy_provider/续费GQHZGY.yaml
+            path: ./proxy_provider/GQHZGY.yaml
             health-check:
               enable: true
               interval: 600
               url: http://www.gstatic.com/generate_204
-          售后GQHZGY:
+          Google:
             type: http
             url: https://raw.githubusercontent.com/ailin66881314/ZHIFU/refs/heads/main/200TU
             interval: 86400
-            path: ./proxy_provider/售后GQHZGY.yaml
+            path: ./proxy_provider/Google.yaml
             health-check:
               enable: true
               interval: 600
               url: http://www.gstatic.com/generate_204
 proxy-groups:
-  - { name: 代理, use: 续费GQHZGY, type: select, [url: http://www.gstatic.com/generate_204 ,interval: 600]}
-  - { name: 全球, use: 售后GQHZGY, type: select, [url: http://www.gstatic.com/generate_204 ,interval: 600]}
-  - { name: Googleplay, type: relay, proxies: [续费GQHZGY,售后GQHZGY]}
+  - { name: 代理, use: GQHZGY, type: select, [url: http://www.gstatic.com/generate_204 ,interval: 600]}
+  - { name: 全球, use: Google, type: select, [url: http://www.gstatic.com/generate_204 ,interval: 600]}
+  - { name: Googleplay, type: relay, proxies: [代理,全球]}
 
 rules: 
   - DOMAIN,myaccount.google.com,Googleplay 
