@@ -46,7 +46,7 @@ proxy-groups:
     interval: 600
   - name: googleplay
     proxies:
-      - 代理
+      - 续费售后
       - GQHZGY
     type: select
     url: http://www.gstatic.com/generate_204
