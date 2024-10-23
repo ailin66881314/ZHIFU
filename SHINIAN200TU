@@ -114,6 +114,30 @@ proxies:
     port: 22326
     username: shinian
     password: 16888888
+  - name: 土耳其3
+    type: socks5
+    server: 31.169.69.101
+    port: 1000
+    username: storm-LISA_area-TR_session-ADSSWE_life-240
+    password: 16888888
+  - name: 土耳其4
+    type: socks5
+    server: 31.169.69.101
+    port: 1000
+    username: storm-LISA_area-TR_session-SFASWE_life-240
+    password: 16888888
+  - name: 土耳其5
+    type: socks5
+    server: 31.169.69.101
+    port: 1000
+    username: storm-LISA_area-TR_session-SWEAWE_life-240
+    password: 16888888
+  - name: 土耳其6
+    type: socks5
+    server: 31.169.69.101
+    port: 1000
+    username: storm-LISA_area-TR_session-SFUWWE_life-240
+    password: 16888888
 
 proxy-groups:
   - name: 代理
@@ -136,7 +160,10 @@ proxy-groups:
     proxies:
       - 土耳其1
       - 土耳其2
-
+      - 土耳其3
+      - 土耳其4
+      - 土耳其5
+      - 土耳其6
   - name: Googleplay
     type: relay
     proxies:
