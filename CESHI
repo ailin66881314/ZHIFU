@@ -57,4 +57,4 @@ rules:
   - DOMAIN,accounts.google.com,googleplay
   - DOMAIN,play.googleapis.com,googleplay
   - DOMAIN,play-fe.googleapis.com,googleplay
-  - MATCH,代理
+  - MATCH,续费售后
