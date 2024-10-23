@@ -102,7 +102,7 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: 土耳其1
+- name: 土耳其1
     type: socks5
     server: 31.169.69.101
     port: 22325
