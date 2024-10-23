@@ -102,7 +102,6 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-31.169.69.101:22326:14a9545a5ee4e:01000e4c8b
   - name: 土耳其1
     type: socks5
     server: 31.169.69.101
